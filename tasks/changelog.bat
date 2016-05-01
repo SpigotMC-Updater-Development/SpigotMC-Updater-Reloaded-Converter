@@ -20,3 +20,4 @@ echo.
 @echo * fixed pluginfixer not correct bug
 @echo * Adding convert.bat as a convert to the latest version
 
+exit
