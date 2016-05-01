@@ -8,7 +8,7 @@ set v=
 for /f "delims=" %%i in ('type tasks\version.txt') do set v=%%i\
 
 echo.
-@echo --------------------------------{Changes in v.%v%}--------------------------------
+@echo ------------------------------{Changes in v.%v%}------------------------------
 @echo * Rewritten and changed code
 @echo * Removed version.txt as a prompt will occur
 @echo * plugin.txt will prompt when opened.
@@ -19,5 +19,6 @@ echo.
 @echo * cleaning logging info to where its no longer piled onto eachother
 @echo * fixed pluginfixer not correct bug
 @echo * Adding convert.bat as a convert to the latest version
+echo.
 
 exit
