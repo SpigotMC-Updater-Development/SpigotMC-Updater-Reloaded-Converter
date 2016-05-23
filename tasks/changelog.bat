@@ -19,6 +19,8 @@ echo.
 @echo * cleaning logging info to where its no longer piled onto eachother
 @echo * fixed pluginfixer not correct bug
 @echo * Adding convert.bat as a convert to the latest version
+@echo * Buildtools files now execute in the correct folder (may have to purge your old Buildtools files)
+@echo * Tasks now properly work (same fix as the last one)
 echo.
 
 exit
