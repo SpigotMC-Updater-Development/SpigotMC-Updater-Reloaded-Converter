@@ -19,8 +19,12 @@ echo.
 @echo * cleaning logging info to where its no longer piled onto eachother
 @echo * fixed pluginfixer not correct bug
 @echo * Adding convert.bat as a convert to the latest version
-@echo * Buildtools files now execute in the correct folder (may have to purge your old Buildtools files)
+@echo * Buildtools files now execute in the correct folder
 @echo * Tasks now properly work (same fix as the last one)
+@echo * changed commands into numbers
+@echo * gitlocation.txt will launch on setup
+@echo * This is a large update as some bugs could still be here. Place an issue here
+@echo   as an issue may still occur.
 echo.
 
 exit
